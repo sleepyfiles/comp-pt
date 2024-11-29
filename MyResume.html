@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <style>
+
+        * {box-sizing: border-box;}
+
+        .row::after {
+            content: "";
+            clear: both;
+            display: table;}
+
+     [class*="col-"] {
+            float: left;
+            padding: 15px;}
+
+/* For mobile phones: */
+@media only screen and (max-width: 767px) {
+    div {background-color:#91a5c4;}
+    [class*="col-"] {
+        
+        width: 100%;
+        font-size: 20px; }
+ }
+
+/* For tablets: */      
+@media only screen and (min-width: 768px) {
+   div {background-color:#7895c4;}
+  .col-s-1 {width: 8.33%;}
+  .col-s-2 {width: 16.66%;}
+  .col-s-3 {width: 25%;}
+  .col-s-4 {width: 33.33%;}
+  .col-s-5 {width: 41.66%;}
+  .col-s-6 {width: 50%;}
+  .col-s-7 {width: 58.33%;}
+  .col-s-8 {width: 66.66%;}
+  .col-s-9 {width: 75%;}
+  .col-s-10 {width: 83.33%;}
+  .col-s-11 {width: 91.66%;}
+  .col-s-12 {width: 100%;}
+
+}
+
+/*For PC*/
+@media only screen and (min-width: 1024px) {
+   div {background-color:#5c82bf;  }
+        .col-1 { width: 8.33%; }
+        .col-2 { width: 16.66%; }
+        .col-3 { width: 25%; }
+        .col-4 { width: 33.33%; }
+        .col-5 { width: 41.66%; }
+        .col-6 { width: 50%; }
+        .col-7 { width: 58.33%; }
+        .col-8 { width: 66.66%; }
+        .col-9 { width: 75%; }
+        .col-10 { width: 83.33%; }
+        .col-11 { width: 91.66%; }
+        .col-12 { width: 100%; }
+
+     }  
+       
+    html { font-family:Microsoft Sans Serif;}
+
+        .header {
+		background-color: #dae1ed;
+        color: #24344f;
+		padding: 15px;
+        text-align: center;}
+
+        .frame {
+        padding: 25px;
+        height: 300px;
+        text-align: justify;
+        border: 1px solid white;
+        gap: 10px;}
+       
+    </style>
+</head>
+
+<body>
+    <div class="header">
+        <h1>Louisa Marie Q. Sta. Ana</h1>
+    </div>
+ 
+    <div class="row">
+       <div class="col-4 col-s-6 frame">
+         <h3>Personal Information</h3>
+         <p>Age: 15</u></p>
+         <p>Gender: Female</p>
+         <p>Birth date: May 13, 2009</p>
+         <p>Birth place: Las Pinas City</p>
+        </div>
+
+        <div class="col-4 col-s-6 frame">
+         <h3>Contact Details</h3>
+         <p>Mobile Number: +639693286877</p>
+         <p>Landline: 09985935236</p>
+         <p>Email: lmqstaana@manresaschool.edu.ph</p>
+
+        </div>
+
+        <div class="col-4 col-s-12 frame">
+         <h3>Educational Attainment</h3>
+        <p>Junior High School: Manresa School</p>
+        <p>Grade School: Manresa School</p>
+        <p>Elementary School: Infant Jesus School of Alabang</p>
+        </div>
+
+
+    </div>
+   
+
+
+
+ </div></body></html>
